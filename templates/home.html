@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+
+    </head>
+    <style>
+
+   	.btn {
+		background-color: #2894FF	;
+		border-radius:15px;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 20px;
+}
+
+
+
+    .flex-container {
+      display: flex;
+      height: 330px;
+      padding: 20px;
+      background-color: #526E89;
+      flex-direction:row;
+
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: flex-start;
+}
+
+
+    </style>
+    <body bgcolor="	#4F008A">
+        <center>
+            <div class='cont' style="font-family:cursive;background-color:#4F008A;">
+                <font size="10"  color="white" face="微軟正黑體">智能口罩管制</font>
+                <p></p>
+				<font size="5" color="white" face="微軟正黑體">疫情之下，大型集會都需要【配戴口罩】</font>
+                <p></p>
+                <font size="5" color="white" face="微軟正黑體">但人力不足，無法確保所有人入場後都繼續帶著口罩，形成防疫破口!</font>
+                <p></p>
+                <font size="5" color="white" face="微軟正黑體">所以我們提供智能口罩管制，用AI即時辨認是否佩戴口罩，防堵疫情爆發!</font>
+
+            </div>
+            <img src="https://img.ltn.com.tw/Upload/news/600/2020/10/20/phpSslyi5.jpg" width="1000" height="450"  >
+            <div class="flex-container"  style="background-color:#4F008A;">
+            <div class="nor">
+                <P><font size="5" color="white" face="微軟正黑體">運用AI人工智慧，快速精準的判斷!</font></P>
+
+                <img src="https://www.flaticon.com/svg/vstatic/svg/2170/2170217.svg?token=exp=1610883274~hmac=2a65114532741e5e6aeb690c0b7d4bed" width="400" height="300" >
+
+            </div>
+            <div class="pneu">
+                <P><font size="5" color="white" face="微軟正黑體">用攝影機全方位監管!</font></P>
+
+                <img src="https://www.flaticon.com/svg/vstatic/svg/2709/2709318.svg?token=exp=1610882970~hmac=55f44206f26e0fd630e30eda1dd0ce20" width="400" height="270">
+
+
+            </div>
+            </div>
+
+            <br>
+
+        <form method="POST" action="{{url_for('home')}}" enctype="multipart/form-data" >
+            <p><font size="5" color="white" face="微軟正黑體">馬上開始吧!</font></p>
+
+            <input type="submit" class='btn' value="START">
+        </form>
+
+    </center>
+
+    </body>
+</html>

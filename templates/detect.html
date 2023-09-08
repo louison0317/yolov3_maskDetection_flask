@@ -1,0 +1,32 @@
+<html>
+  <head>
+      <title></title>
+        <meta charset="UTF-8">
+    <title>Mask_detection_flask</title>
+    <style>
+    .btn {
+		background-color: #2894FF	;
+		border-radius:15px;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 20px;
+    }
+    img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%
+    }
+    </style>
+  </head>
+  <body bgcolor="#4F008A"  align="center">
+   <font size="10"  color="white" face="微軟正黑體" >智能口罩管制</font>
+
+    <img id="bg" class="center" src="{{ url_for('video_feed') }}">
+  <a href="/"    class='btn' >返回主頁</a>
+  </body>
+
+</html>
